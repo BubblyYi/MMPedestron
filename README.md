@@ -15,15 +15,15 @@ Authors: [Yi Zhang](https://scholar.google.com/citations?hl=en&user=hzR7V5AAAAAJ
 
 2. CrowdHuman
 
-| Method&Config | Backbone |                                                                    Download                                                                    |
-| :----: | :------: | :--------------------------------------------------------------------------------------------------------------------------------------------: |
-|  [MMPedestron](configs/mmpedestron/crowdhuman/mmedestron_crowdhuman_2x.py) | UNIXViT | [Gooogle Drive](https://drive.google.com/file/d/1cAuHOpLgl-p5BpVJLso3MxStolAMzspd/view?usp=sharing), [Baidu Yun (Code: mmpd)](https://pan.baidu.com/s/1VPnzk5--iiQ_WABDx2zHvQ) |
+|                                Method&Config                                | Backbone |                                                                    Download                                                                    |
+|:---------------------------------------------------------------------------:| :------: | :--------------------------------------------------------------------------------------------------------------------------------------------: |
+| [MMPedestron](configs/mmpedestron/crowdhuman/mmpedestron_crowdhuman_2x.py)  | UNIXViT | [Gooogle Drive](https://drive.google.com/file/d/1cAuHOpLgl-p5BpVJLso3MxStolAMzspd/view?usp=sharing), [Baidu Yun (Code: mmpd)](https://pan.baidu.com/s/1VPnzk5--iiQ_WABDx2zHvQ) |
 
 3.COCO-Person
 
 | Method&Config | Backbone |                                                                    Download                                                                    |
 | :----: | :------: | :--------------------------------------------------------------------------------------------------------------------------------------------: |
-| [MMPedestron finetune](configs/mmpedestron/coco_exp/mmpedesron_coco.py) | UNIXViT | [Gooogle Drive](https://drive.google.com/file/d/1hao7Y0NZOy9gTp4Q-kQD_TlCFnJ04iQB/view?usp=sharing), [Baidu Yun (Code: mmpd)](https://pan.baidu.com/s/1rBYbCFNK8KrnvBGQe1irCQ) |
+| [MMPedestron finetune](configs/mmpedestron/coco_exp/mmpedestron_coco.py) | UNIXViT | [Gooogle Drive](https://drive.google.com/file/d/1hao7Y0NZOy9gTp4Q-kQD_TlCFnJ04iQB/view?usp=sharing), [Baidu Yun (Code: mmpd)](https://pan.baidu.com/s/1rBYbCFNK8KrnvBGQe1irCQ) |
 
 4.FLIR
 
