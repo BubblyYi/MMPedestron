@@ -1,6 +1,6 @@
 # MMPedstron
 
-[ECCV2024] This is the official implementation of the paper "When Multi-Modal Learning Meets Pedestrian Detection: Generalist Model and Benchmark Dataset".
+[ECCV2024] This is the official implementation of the paper "When Pedestrian Detection Meets Multi-Modal Learning: Generalist Model and Benchmark Dataset".
 
 Authors: [Yi Zhang](https://scholar.google.com/citations?hl=en&user=hzR7V5AAAAAJ), [Wang ZENG](https://scholar.google.com/citations?user=u_RNsOUAAAAJ&hl=en), [Sheng Jin](https://scholar.google.com/citations?user=wrNd--oAAAAJ&hl=en), [Chen Qian](https://scholar.google.com/citations?user=AerkT0YAAAAJ&hl=en), [Ping Luo](https://scholar.google.com/citations?user=aXdjxb4AAAAJ&hl=en), [Wentao Liu](https://scholar.google.com/citations?user=KZn9NWEAAAAJ&hl=en)
 
