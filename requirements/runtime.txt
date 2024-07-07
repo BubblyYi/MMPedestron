@@ -1,0 +1,6 @@
+matplotlib
+numpy==1.19.5
+pycocotools
+scipy
+six
+terminaltables
