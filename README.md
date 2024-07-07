@@ -146,46 +146,9 @@ sh env_deploy.sh
 ```
 ## Data Preparation
 
-MMPD is built upon the 2D detection datasets, including
-[COCO](http://cocodataset.org/),
-[CrowdHuman](https://www.crowdhuman.org/),
-[Object365](https://www.objects365.org/overview.html),
-[LLVIP](https://bupt-ai-cz.github.io/LLVIP/),
-[InOutDoor](http://adaptivefusion.cs.uni-freiburg.de/),
-[STCrowd](https://github.com/4DVLab/STCrowd),
-[PEDRo](https://github.com/SSIGPRO/PEDRo-Event-Based-Dataset),
-[FLIR](https://adas-dataset-v2.flirconservator.com/#downloadguide),
-[EventPed](XXX),
-In order to use MMPD, please download images from the original datasets first,
-then reorganize the data and use our provided
-[annotation files Google Drive](https://drive.google.com/file/d/1ly5j181GMpP9Rkx0weFamh7CqElL9FXh/view?usp=sharing) or [annotation files BaiDu Yun(Code: mmpd)](https://pan.baidu.com/s/1O4Hm44eBvwMflqizLlGUrQ) for training and testing.
-After preparing images and annotations, the project should look like this:
+Please follow the [instructions](https://github.com/jin-s13/MMPD-Dataset/blob/main/README.md) for MMPD dataset preparation.
 
-```text
-── mmpedestron_datasets
-    │── mmpedestron_datasets_ann
-        │   │-- crowdhuman_coco/annotation_train_full2coco_231020.json
-        │   |-- LLVIP/ann_coco/LLVIP_coco_train_change_cat_id.json
-        │   |-- PEDRo_events_dataset/coco_ann/pedro_train.json
-        │   │-- ...
-    │── mmpedestron_images
-                │-- COCO
-                │-- CrowdHuman
-                │-- Object365
-                │-- LLVIP
-                │-- InOutDoor
-                │-- STCrowd
-                │-- ...
-```
-STCrowd Lidar2RGB
-```shell
-python tools/datasets_converters/stcrowd_pointcloud2cam.py
-```
 
-PEDRo events dataset Event2RGB
-```shell
-python tools/datasets_converters/multi_process_evs_handler.py
-```
 ## Training
 
 Manage training jobs with Slurm
@@ -204,3 +167,13 @@ sh tools/slurm_test.sh ${PARTITION} ${JOB_NAME} ${CONFIG_FILE} ${CHECKPOINT} ${G
 
 ## Citation
 if you find our paper and code useful in your research, please consider giving a star and citation :)
+
+```bibtex
+@inproceedings{zhang2024when,
+  title={When Pedestrian Detection Meets Multi-Modal Learning: Generalist Model and Benchmark Dataset},
+  author={Zhang, Yi and Zeng, Wang and Jin, Sheng and Qian, Chen and Luo, Ping and Liu, Wentao},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  year={2024},
+  month={September}
+}
+```
