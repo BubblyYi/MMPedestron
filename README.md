@@ -1,4 +1,4 @@
-# MMPedestron
+# MMPedstron
 
 [ECCV2024] This is the official implementation of the paper "When Pedestrian Detection Meets Multi-Modal Learning: Generalist Model and Benchmark Dataset".
 
@@ -23,7 +23,7 @@ Authors: [Yi Zhang](https://scholar.google.com/citations?hl=en&user=hzR7V5AAAAAJ
 
 | Method&Config | Backbone |                                                                    Download                                                                    |
 | :----: | :------: | :--------------------------------------------------------------------------------------------------------------------------------------------: |
-| [MMPedestron finetune](configs/mmpedestron/coco_exp/mmpedesron_coco.py) | UNIXViT | [Gooogle Drive](https://drive.google.com/file/d/1hao7Y0NZOy9gTp4Q-kQD_TlCFnJ04iQB/view?usp=sharing), [Baidu Yun (Code: mmpd)](https://pan.baidu.com/s/1rBYbCFNK8KrnvBGQe1irCQ) |
+| [MMPedstron finetune](configs/mmpedestron/coco_exp/mmpedesron_coco.py) | UNIXViT | [Gooogle Drive](https://drive.google.com/file/d/1hao7Y0NZOy9gTp4Q-kQD_TlCFnJ04iQB/view?usp=sharing), [Baidu Yun (Code: mmpd)](https://pan.baidu.com/s/1rBYbCFNK8KrnvBGQe1irCQ) |
 
 4.FLIR
 
@@ -165,3 +165,13 @@ sh tools/slurm_test.sh ${PARTITION} ${JOB_NAME} ${CONFIG_FILE} ${CHECKPOINT} ${G
 
 ## Citation
 if you find our paper and code useful in your research, please consider giving a star and citation :)
+
+```bibtex
+@inproceedings{zhang2024when,
+  title={When Pedestrian Detection Meets Multi-Modal Learning: Generalist Model and Benchmark Dataset},
+  author={Zhang, Yi and Zeng, Wang and Jin, Sheng and Qian, Chen and Luo, Ping and Liu, Wentao},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  year={2024},
+  month={September}
+}
+```
