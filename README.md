@@ -163,6 +163,9 @@ Manage testing jobs with Slurm
 sh tools/slurm_test.sh ${PARTITION} ${JOB_NAME} ${CONFIG_FILE} ${CHECKPOINT} ${GPUS}
 ```
 
+## License
+Codes and data are freely available for free non-commercial use, and may be redistributed under these conditions. For commercial queries, please contact Mr. Sheng Jin (jinsheng13[at]foxmail[dot]com). We will send the detail agreement to you.
+
 ## Citation
 if you find our paper and code useful in your research, please consider giving a star and citation :)
 
