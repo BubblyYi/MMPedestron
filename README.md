@@ -4,6 +4,11 @@
 
 Authors: [Yi Zhang](https://scholar.google.com/citations?hl=en&user=hzR7V5AAAAAJ), [Wang ZENG](https://scholar.google.com/citations?user=u_RNsOUAAAAJ&hl=en), [Sheng Jin](https://scholar.google.com/citations?user=wrNd--oAAAAJ&hl=en), [Chen Qian](https://scholar.google.com/citations?user=AerkT0YAAAAJ&hl=en), [Ping Luo](https://scholar.google.com/citations?user=aXdjxb4AAAAJ&hl=en), [Wentao Liu](https://scholar.google.com/citations?user=KZn9NWEAAAAJ&hl=en)
 
+<img src="./images/mmpd.png"/>
+
+## MMPedestron Examples
+<img src="./images/vis.png"/>
+
 ## Configs and Models
 
 ### Region proposal performance
@@ -125,7 +130,9 @@ Authors: [Yi Zhang](https://scholar.google.com/citations?hl=en&user=hzR7V5AAAAAJ
 | [ProbEN RGB](configs/baseline_exp/evs_human/faster_rcnn_pf/faster_rcnn_r50_fpn_1x_evs_human_rgb_infer_only.py), [ProbEN Event](configs/baseline_exp/evs_human/faster_rcnn_pf/faster_rcnn_r50_fpn_1x_evs_human_evs_infer_only.py) | Res50 | - |
 | [CMX](configs/baseline_exp/evs_human/cmx/faster_rcnn_cmx_fpn_1x_evs_human.py) | SwinTransformer | - |
 
+### Compared with SOTA 
 
+<img src="./images/compare.png" width=800>
 
 ## Installation
 
