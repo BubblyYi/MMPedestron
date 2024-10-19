@@ -3,9 +3,9 @@
 # @FileName: __init__.py
 # @Software: PyCharm
 from .co_atss_head import CoATSSHead
+from .detr_head import DETRHead_Fix
 from .co_deformable_detr_head import CoDeformDETRHead
 from .co_dino_head import CoDINOCoodHead, CoDINOHead
-from .detr_head import DETRHead_Fix
 from .query_denoising import build_dn_generator
 from .transformer import (BaseTransformerLayer_CP, CoDeformableDetrTransformer,
                           CoDeformableDetrTransformerDecoder,
